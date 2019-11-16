@@ -1,7 +1,7 @@
 # GitHubRepositories
 
 .NET MVC &amp; AngularJs Application to search for Github repositories using GitHub API.
-
+The results can be saved into the Http session storage and shown on the Bookmarks page.
 
 Notes:
 
