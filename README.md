@@ -5,7 +5,7 @@ The results can be saved into the Http session storage and shown on the Bookmark
 
 Notes:
 
-* API only returns 30 results on subsequent requests ( GitHub API default value )
+* The Application can only show maximum 30 results per request ( GitHub API default value )
 
 * Pagination is not supported
 
