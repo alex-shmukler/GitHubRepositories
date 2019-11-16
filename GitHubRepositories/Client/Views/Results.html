@@ -1,0 +1,21 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4" ng-repeat="repository in repositories">
+            <div class="thumbnail" >
+                <img ng-src="{{repository.avatar_url}}" alt="Avatar" style="width:150px;height:150px; margin-top:0.5em;">
+                <div class="caption">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h4 class="trimText " style="color:gray">{{repository.name}}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <button class="btn btn-primary" role="button" ng-click="bookmark(repository)">Add Bookmark</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

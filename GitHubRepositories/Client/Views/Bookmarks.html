@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4" ng-repeat="bookmark in bookmarks">
+            <div class="thumbnail">
+                <img ng-src="{{bookmark.avatar_url}}" alt="Avatar" style="width:150px;height:150px; margin-top:0.5em;">
+                <div class="caption">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h4 class="trimText " style="color:gray">{{bookmark.name}}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
