@@ -3,14 +3,14 @@
 .NET MVC &amp; AngularJs Application to search for Github repositories using GitHub API.
 The results can be saved into the Http session storage and shown on the Bookmarks page.
 
-Notes:
+### Notes:
 
 * The Application can only show maximum 30 results per request ( GitHub API default value )
 
 * Pagination is not supported
 
 
-Openning and Running program:
+## Getting Started
 
 1. Open Visual Studio.
 
